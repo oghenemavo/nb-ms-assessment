@@ -18,13 +18,13 @@ bootstrap the onboarding and notification services
 
 ```bash
   cd onboarding_service
-  composer install
+  composer install --ignore-platform-reqs
   symfony server:start
 ```
 
 ```bash
   cd notifications_service
-  composer install
+  composer install --ignore-platform-reqs
   php bin/console messenger:consume -vv
 ```
     
