@@ -1,3 +1,6 @@
 [submodule "nb_onboarding_service"]
 	path = nb_onboarding_service
 	url = https://github.com/oghenemavo/nb_onboarding_service.git
+[submodule "nb_notifications_service"]
+	path = nb_notifications_service
+	url = https://github.com/oghenemavo/nb_notifications_service.git
